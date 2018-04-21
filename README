@@ -1,6 +1,6 @@
 QUICK AND DIRTY
 ===============
-
+http://unpbook.com/src.html
 Execute the following from the src/ directory:
 
     ./configure    # try to figure out all implementation differences
@@ -10,13 +10,13 @@ Execute the following from the src/ directory:
 
     cd ../libfree  # continue building the basic library
     make
-
+*********Centos用不到*********************
     cd ../libroute # only if your system supports 4.4BSD style routing sockets
     make           # only if your system supports 4.4BSD style routing sockets
 
     cd ../libxti   # only if your system supports XTI
     make           # only if your system supports XTI
-
+******************************
     cd ../intro    # build and test a basic client program
     make daytimetcpcli
     ./daytimetcpcli 127.0.0.1
